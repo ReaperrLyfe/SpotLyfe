@@ -9,7 +9,7 @@
              font-family:'Josefin Sans', sans-serif;}
 /*Header*/
  .sorry {color: white; font-family:'Josefin Sans', sans-serif;
-         font-size: 2.8em; position: absolute; padding: 90px;} 
+         font-size: 2.8em; position: absolute; padding: 100px;} 
 
 /*Paragraph*/
  .onepara {color: white; font-family:'Josefin Sans', sans-serif;
@@ -29,7 +29,7 @@
 /*Submit Button*/
  .submit {border: none; height: 5.5vh; width: 40vw; border-radius: 15px;
           font-family: 'Josefin Sans', sans-serif; font-size: 1em;
-          align-text: center; margin-left: 30vw; margin-top: 3vh;
+          align-text: center; margin-left: 30vw; margin-top: 5vh;
           background-color: purple; color: white;}
 
  hover: .submit {color: mediumpurple;}
