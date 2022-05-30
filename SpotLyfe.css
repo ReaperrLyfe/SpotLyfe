@@ -32,6 +32,8 @@
           align-text: center; margin-left: 30vw; margin-top: 3vh;
           background-color: purple; color: white;}
 
+ hover: .submit {color: mediumpurple;}
+
  @media screen and (min-width: 960px){
  
  .titlecard {font-size: 3em;}
