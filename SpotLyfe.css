@@ -9,12 +9,12 @@
              font-family:'Josefin Sans', sans-serif;}
 /*Header*/
  .sorry {color: white; font-family:'Josefin Sans', sans-serif;
-         font-size: 2.8em; position: absolute; padding: 100px;} 
+         font-size: 2.8em; position: absolute; left: 32vw; top: 20vh;} 
 
 /*Paragraph*/
  .onepara {color: white; font-family:'Josefin Sans', sans-serif;
            text-align: center; font-size: 1.2em; padding-top: 24vh;
-           line-height: 23px;}
+           line-height: 23px; top: 30vh;}
 
  /*Mailing List*/
  .mail .text-box {z-index: 100; border: none;
@@ -26,19 +26,20 @@
          color:#00ace6; z-index: 1; font-size: 2vw; margin-top: 10vh;
          position: absolute; pointer-events: none; opacity: 0;}
 
+
 /*Submit Button*/
  .submit {border: none; height: 5.5vh; width: 40vw; border-radius: 15px;
           font-family: 'Josefin Sans', sans-serif; font-size: 1em;
           align-text: center; margin-left: 30vw; margin-top: 5vh;
-          background-color: purple; color: white;}
+          background-color: purple; color: white; z-index: 100;}
 
- hover: .submit {color: mediumpurple;}
+ .submit:hover {opacity: 80%;} 
 
  @media screen and (min-width: 960px){
  
  .titlecard {font-size: 3em;}
 
- .sorry {position: absolute; left: 39vw;}
+ .sorry {position: absolute; left: 45vw;}
 
  .onepara {font-size: 2em; line-height: 30px;}
 
@@ -49,10 +50,5 @@
  }
 
 
-
-
-
-
- 
 
 
