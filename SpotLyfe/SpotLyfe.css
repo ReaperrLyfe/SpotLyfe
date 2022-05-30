@@ -1,0 +1,56 @@
+/*Browser Reset*/
+ * {margin: 0; padding: 0;}
+
+/*Background Color*/
+ body {background-color: dodgerblue;}
+
+/*Title Card*/
+ .titlecard {color: white; text-align: center; padding-top: 5vh;
+             font-family:'Josefin Sans', sans-serif;}
+/*Header*/
+ .sorry {color: white; font-family:'Josefin Sans', sans-serif;
+         font-size: 2.8em; position: absolute; padding: 90px;} 
+
+/*Paragraph*/
+ .onepara {color: white; font-family:'Josefin Sans', sans-serif;
+           text-align: center; font-size: 1.2em; padding-top: 24vh;
+           line-height: 23px;}
+
+ /*Mailing List*/
+ .mail .text-box {z-index: 100; border: none;
+                 height: 5vh; width: 90vw; border-radius: 5px;
+                 font-family: 'Josefin Sans', sans-serif; font-size: 1em;
+                 align-text: center; margin-left :5vw ; margin-top: 9vw;}
+
+ .label {font-family: 'Josefin Sans', sans-serif;
+         color:#00ace6; z-index: 1; font-size: 2vw; margin-top: 10vh;
+         position: absolute; pointer-events: none; opacity: 0;}
+
+/*Submit Button*/
+ .submit {border: none; height: 5.5vh; width: 40vw; border-radius: 15px;
+          font-family: 'Josefin Sans', sans-serif; font-size: 1em;
+          align-text: center; margin-left: 30vw; margin-top: 3vh;
+          background-color: purple; color: white;}
+
+ @media screen and (min-width: 960px){
+ 
+ .titlecard {font-size: 3em;}
+
+ .sorry {position: absolute; left: 39vw;}
+
+ .onepara {font-size: 2em; line-height: 30px;}
+
+ .mail .text-box {width: 40vw; margin-left: 30vw; margin-top: 7vh;}
+
+ .submit {width: 15vw; margin-left: 42.5vw; margin-top: 6vh;}
+
+ }
+
+
+
+
+
+
+ 
+
+
